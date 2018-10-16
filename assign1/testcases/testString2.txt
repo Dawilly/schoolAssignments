@@ -1,0 +1,8 @@
+"programming"     "in"    "c"
+  "sure" "is"
+"the" "very" "very" "very" "best"
+"thing" "probably" "ever"
+"programmers" "are " "nice"
+"people" "but"
+ "people" "aren't"      "always"
+"nice"

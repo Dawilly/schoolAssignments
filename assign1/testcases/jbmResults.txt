@@ -1,0 +1,75 @@
+echo running sqsort on integer ex 1 from assigment instructions
+running sqsort on integer ex 1 from assigment instructions
+./sqsort -d t-int1.txt
+[2,4,5,3,1]
+[5,4,3,2,1]
+echo running sqsort on integer ex 2 from ass instructions
+running sqsort on integer ex 2 from ass instructions
+./sqsort -d t-int2.txt
+[1,2,3,4,5,6]
+[6,5,4,3,2,1]
+echo running sqsort on random integers some reapeats
+running sqsort on random integers some reapeats
+./sqsort -d t-int3.txt
+[4,3,2,1,1,0,0,4,3,3,8,6]
+[4,3,2,1,1,0,4,3,8,6,3,0]
+[4,3,2,1,1,4,8,6,3,3,0,0]
+[4,3,2,1,8,6,4,3,3,1,0,0]
+[4,3,2,8,6,4,3,3,1,1,0,0]
+[4,3,8,6,4,3,3,2,1,1,0,0]
+[4,8,6,4,3,3,3,2,1,1,0,0]
+[8,6,4,4,3,3,3,2,1,1,0,0]
+echo running sqsort on all but one integer the same
+running sqsort on all but one integer the same
+./sqsort -d t-int4.txt
+[1,1,1,1,1,4,1,1,1,1,1]
+[1,1,1,1,4,1,1,1,1,1,1]
+[1,1,1,4,1,1,1,1,1,1,1]
+[1,1,4,1,1,1,1,1,1,1,1]
+[1,4,1,1,1,1,1,1,1,1,1]
+[4,1,1,1,1,1,1,1,1,1,1]
+echo running sqsort on mostly the same integers
+running sqsort on mostly the same integers
+./sqsort -d t-int5.txt
+[3,3,3,3,3,4,5,3,3,3,3,3]
+[3,3,3,3,5,4,3,3,3,3,3,3]
+[3,3,3,5,4,3,3,3,3,3,3,3]
+[3,3,5,4,3,3,3,3,3,3,3,3]
+[3,5,4,3,3,3,3,3,3,3,3,3]
+[5,4,3,3,3,3,3,3,3,3,3,3]
+echo running sqsort on real ex
+running sqsort on real ex
+./sqsort -r t-real1.txt
+[2.600000,1.500000,3.800000,1.900000]
+[2.600000,3.800000,1.900000,1.500000]
+[3.800000,2.600000,1.900000,1.500000]
+echo running sqsort on real all similar
+running sqsort on real all similar
+./sqsort -r t-real2.txt
+[1.100000,1.100000,1.100000,1.100000,1.100000]
+[1.100000,1.100000,1.100000,1.100000,1.100000]
+echo running sqsort on real all but 1 similar
+running sqsort on real all but 1 similar
+./sqsort -r t-real3.txt
+[1.100000,1.100000,1.100000,2.500000,1.100000,1.100000,1.100000]
+[1.100000,1.100000,2.500000,1.100000,1.100000,1.100000,1.100000]
+[1.100000,2.500000,1.100000,1.100000,1.100000,1.100000,1.100000]
+[2.500000,1.100000,1.100000,1.100000,1.100000,1.100000,1.100000]
+echo running sqsort on string ex
+running sqsort on string ex
+./sqsort -s t-str1.txt
+["goodbye","c is the best","hello","please compile","0"]
+["goodbye","please compile","hello","c is the best","0"]
+["please compile","hello","goodbye","c is the best","0"]
+echo running sqsort on string similar
+running sqsort on string similar
+./sqsort -s t-str2.txt
+["hey","hey","hey","hey"]
+["hey","hey","hey","hey"]
+echo running sqsort on string all but 1 similar
+running sqsort on string all but 1 similar
+./sqsort -s t-str3.txt
+["hey","hey","hey","test","hey","hey","hey"]
+["hey","hey","test","hey","hey","hey","hey"]
+["hey","test","hey","hey","hey","hey","hey"]
+["test","hey","hey","hey","hey","hey","hey"]

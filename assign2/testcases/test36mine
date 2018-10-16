@@ -1,0 +1,12 @@
+0: "hei"("hei")-
+1: "four"("hei")-l "hello"("hei")-r
+2: "five"("four")-l ="g"-18("four")-r "yksi"("hello")-r
+3: "d"-11("five")-l "one"("yksi")-l ="z"-18("yksi")-r
+4: "a"-9("d"-11)-l ="e"-5("d"-11)-r "kaksi"("one")-l "two"("one")-r
+5: "c"-23("a"-9)-r "j"-11("kaksi")-l "kolme"("kaksi")-r "three"("two")-l "viisi"("two")-r
+6: ="b"-2("c"-23)-l ="i"("j"-11)-l "nelja"("kolme")-r "s"-7("three")-l ="y"-6("viisi")-r
+7: ="m"-11("nelja")-l ="r"-8("s"-7)-l
+Words/Phrases: 142
+Nodes: 25
+Minimum depth: 2
+Maximum depth: 8
