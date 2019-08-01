@@ -29,7 +29,6 @@ DArray *newDArray(void (*display)(FILE *,void *)) {
 void insertDArray(DArray *a,void *v) {
 	
 	if (a->size == a->capacity) {
-		//Grow that shit, nykkuh
 		a->capacity = a->capacity * 2;
 		a->array = (void*) realloc(a->array, a->capacity * sizeof(void *));
 	}
